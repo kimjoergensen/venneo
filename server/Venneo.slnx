@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Identity/">
+    <Project Path="Identity/Venneo.Identity.API/Venneo.Identity.API.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="Venneo.AppHost/Venneo.AppHost.csproj" Id="20ed6433-8fed-4674-b08e-4ceba9643c2f" />
+  <Project Path="Venneo.ServiceDefaults/Venneo.ServiceDefaults.csproj" />
+</Solution>
