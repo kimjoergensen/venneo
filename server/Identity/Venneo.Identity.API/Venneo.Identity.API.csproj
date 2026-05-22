@@ -4,10 +4,14 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
   </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\..\Venneo.ServiceDefaults\Venneo.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Venneo.Identity.Application\Venneo.Identity.Application.csproj" />
+    <ProjectReference Include="..\Venneo.Identity.Infrastructure\Venneo.Identity.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

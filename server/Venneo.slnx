@@ -1,7 +1,11 @@
 <Solution>
   <Folder Name="/Identity/">
     <Project Path="Identity/Venneo.Identity.API/Venneo.Identity.API.csproj" />
+    <Project Path="Identity/Venneo.Identity.Application/Venneo.Identity.Application.csproj" Id="a8784d2e-8a30-466d-8ddf-5f25706f29a8" />
+    <Project Path="Identity/Venneo.Identity.Infrastructure/Venneo.Identity.Infrastructure.csproj" Id="02798240-fae8-4059-a52d-512ce163f85f" />
+    <Project Path="Identity/Vennero.Identity.Core/Venneo.Identity.Core.csproj" Id="569cd40b-0553-43d4-ab69-62185cd16b56" />
   </Folder>
+  <Folder Name="/Identity/Tests/" />
   <Folder Name="/Solution Items/">
     <File Path="Directory.Packages.props" />
   </Folder>

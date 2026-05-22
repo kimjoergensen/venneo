@@ -1,6 +1,11 @@
+using Venneo.Identity.Application;
+using Venneo.Identity.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
+builder.AddApplicationServices();
+builder.AddInfrastructureServices();
 
 builder.Services.AddOpenApi();
 
